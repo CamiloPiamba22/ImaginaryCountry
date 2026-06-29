@@ -34,7 +34,7 @@
                             <a class="nav-link" href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#himno" onclick="const t=document.getElementById('himno');if(t)t.scrollIntoView({behavior:'smooth'});bootstrap.Offcanvas.getInstance(document.getElementById('navbarOffcanvasLg')).hide();">Himno</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Group #2/ Factoria F5</a>
@@ -81,7 +81,7 @@
 </form>
     </div>
 
-    <div class="container bg-success mt-5 pt-5 pb-5 rounded-top-5">
+    <div id="himno" class="container bg-success mt-5 pt-5 pb-5 rounded-top-5">
         <h2 >Historia e himno</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique perspiciatis nisi doloremque accusamus laborum. Sunt dolore harum ullam itaque nemo tempore voluptates dolores sint, enim incidunt ea quam architecto dolor!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique odit modi consectetur aut quia excepturi neque ipsa fugit quo laudantium impedit dolorem, alias maxime nostrum distinctio. Rem, accusantium amet? Dolorum?</p>
@@ -105,6 +105,7 @@
 
     </div>
     
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.fixed.js"></script>
+
 </body>
 </html>
