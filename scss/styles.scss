@@ -49,7 +49,7 @@ $h4-font-size: 1.375rem;           // H4 = 22px
 // Enlaces
 $link-color:                   $amargia-light-green;          // Color del enlace
 $link-decoration:              underline;                     // Subrayado por defecto
-$link-hover-color:             shift-color($link-color, $link-hover-darken-percentage); // Color al hacer hover (se oscurece automáticamente)
+$link-hover-color:             darken($amargia-light-green, 15%); // Color al hacer hover (se oscurece un 15%)
 
 // Geometría y efectos
 $border-radius-xl: 20px;       // Radio grande
@@ -134,6 +134,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "../node_modules/bootstrap/scss/list-group"; // Listas de elementos
 @import "../node_modules/bootstrap/scss/modal";      // Ventanas modales
 @import "../node_modules/bootstrap/scss/tables";     // Tablas
+@import "../node_modules/bootstrap/scss/offcanvas";  //mobile menu
 @import "../node_modules/bootstrap/scss/tooltip";    // Tooltips (info al hacer hover)
 @import "../node_modules/bootstrap/scss/popover";    // Popovers (ventanas emergentes)
 
