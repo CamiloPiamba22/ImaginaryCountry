@@ -6,7 +6,6 @@ align-items: center;
 border-radius: 25px;
 background: #F2F2F2;
 font-family: "Albert Sans";
-padding:18px;
 }
 
 header .navbar {
@@ -69,6 +68,10 @@ color: #00080C
     color: #F2F2F2;
 }
 
+.bg-green{
+    background: #00C83C;
+}
+
 h1 {
 display: flex;
 flex-direction: column;
@@ -77,4 +80,8 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.example-section {
+    padding: 0 40px;
 }
