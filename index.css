@@ -89,6 +89,11 @@ line-height: normal;
 padding: 25px;
 }
 
+h2 {
+font-size: 24px;
+padding: 25px 0; 
+}
+
 .example-section {
     max-width: 100%;
     display: flex;
@@ -113,10 +118,12 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 25px;
+    padding: 15px 0;
 }
 
 .collapsible {
     padding: 18px 35px;
+    font-weight: 700;
     border: none;
     border-radius: 25px;
     text-align: left;
@@ -140,4 +147,11 @@ img {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 25px;
 }
