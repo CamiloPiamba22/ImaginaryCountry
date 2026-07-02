@@ -45,3 +45,26 @@ text-decoration: none;
 font-size: 60px; 
 color: #00080C
 }
+
+ .yellow{
+    color: #FAAC00;
+}
+
+.green{
+    color: #00C83C;
+}
+.light-green{
+    color: #70FF9B;
+}
+
+.dark-green{
+    color: #003D43;
+}
+
+.dark{
+    color: #00080C;
+}
+
+.light{
+    color: #F2F2F2;
+}
