@@ -27,11 +27,13 @@
     <img src="img/sectionExample/exampleImg.png" alt="description">
     <p>Este es un ejemplo de sección que contiene un título y un párrafo. Puedes agregar más contenido aquí según tus necesidades.</p>
 
-    <button type="button" class="collapsible bg-yellow">Open Collapsible</button>
-<div class="content">
+    <div class="content">
   <p>contenido de la collapse sección</p>
   <img src="img/sectionExample/exampleImg.png" alt="description">
 </div>
+
+    <button type="button" class="collapsible bg-yellow">Open Collapsible</button>
+
 
 </section>
 </div>
@@ -42,7 +44,7 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    var content = this.previousElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
