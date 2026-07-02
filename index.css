@@ -1,3 +1,4 @@
+/* Body: flexbox centrado, fondo gris claro, fuente Albert Sans */
 body {
 display: flex;
 padding-top: 18px;
@@ -10,6 +11,7 @@ gap: 18px;
 margin: 0px;
 }
 
+/* Contenedor: ancho máximo 1200px, box-sizing para incluir padding */
 .container {
     max-width: 1200px;
     margin: 0;
@@ -17,6 +19,7 @@ margin: 0px;
     box-sizing: border-box;
 }
 
+/* Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados */
 header .navbar {
 gap: 20px;
 display: flex;
@@ -31,6 +34,7 @@ margin-right: 18px;
 
 }
 
+/* Título del header: texto verde claro, negrita, centrado verticalmente */
 .headerTitle {
 display: flex;
 align-items: center;
@@ -42,6 +46,7 @@ line-height: normal;
 margin: 0px;
 }
 
+/* Botón hamburguesa: círculo verde con icono +, tamaño fijo */
 .burger {
 display: flex;
 align-items: center;
@@ -57,7 +62,8 @@ font-size: 60px;
 color: #00080C
 }
 
- .yellow{
+/* Clases utilitarias de color de texto */
+.yellow{
     color: #FAAC00;
 }
 
@@ -80,6 +86,7 @@ color: #00080C
     color: #F2F2F2;
 }
 
+/* Clases utilitarias de fondo */
 .bg-green{
     background: #00C83C;
 }
@@ -88,6 +95,7 @@ color: #00080C
     background: #FAAC00;
 }
 
+/* Título h1: tamaño 32px, negrita, con padding */
 h1 {
 font-size: 32px;
 font-style: normal;
@@ -96,11 +104,13 @@ line-height: normal;
 padding: 25px;
 }
 
+/* Título h2: tamaño 24px, padding vertical */
 h2 {
 font-size: 24px;
 padding: 25px 0; 
 }
 
+/* Sección de ejemplo: flex columna, centrada, con padding lateral */
 .example-section {
     max-width: 100%;
     display: flex;
@@ -112,6 +122,7 @@ padding: 25px 0;
     box-sizing: border-box
 }
 
+/* Contenedor principal: flex columna, centrado, con separación entre elementos */
 .main {
     display: flex;
     flex-direction: column;
@@ -121,6 +132,7 @@ padding: 25px 0;
     margin: 0;
 }
 
+/* Imágenes responsive: se adaptan al ancho del contenedor, bordes redondeados */
 img {
     max-width: 100%;
     height: auto;
@@ -128,6 +140,7 @@ img {
     padding: 15px 0;
 }
 
+/* Botón collapsible: sin borde, bordes redondeados, texto en negrita */
 .collapsible {
     padding: 18px 35px;
     font-weight: 700;
@@ -140,30 +153,28 @@ img {
     margin-top: 25px;
 }
 
+/* Efecto hover: sombra y elevación suave al pasar el ratón */
 .collapsible:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3px);
   cursor: pointer;
 }
 
+/* Estado activo o hover: fondo gris claro */
 .active, .collapsible:hover {
   background-color: #F2F2F2;
 }
 
+/* Contenido colapsable: oculto por defecto, transición suave al expandirse */
 .content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  border-radius: 25px;
-}
 
 
+/* Media query: estilos para pantallas de escritorio (≥1024px) */
 @media (min-width: 1024px) {
     h1 {
         font-size: 48px;
