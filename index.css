@@ -6,6 +6,7 @@ align-items: center;
 border-radius: 25px;
 background: #F2F2F2;
 font-family: "Albert Sans";
+gap: 18px;
 }
 
 header .navbar {
@@ -73,15 +74,24 @@ color: #00080C
 }
 
 h1 {
-display: flex;
-flex-direction: column;
-justify-content: center;
+
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding: 25px;
 }
 
 .example-section {
     padding: 0 40px;
+    max-width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
 }
