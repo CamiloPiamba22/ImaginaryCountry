@@ -36,53 +36,45 @@ margin-right: 18px;
 }
 
 .historiaehimno{
-display:flex;
-flex-direction: column;
-align-items: center;
-background-color: #00C83C;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #00C83C;
 }
 
-
 article.history{
-
-    text-align: justify;
-    padding: 50px;
-
+   text-align: justify;
+   padding: 50px;
 }
 
 p.lema{
-text-align: justify;
-padding: 50px;
-    
+   text-align: center;
+   padding: 50px;
 }
-article.lema{
 
-display:flex;
-flex-direction: column;
-align-items: center;
+article.lema{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 img.coro{
-margin: 0px 0px 0px 150px;
-
+   margin: 0px 0px 0px 150px;
 }
 
 article.fiesta{
-
-align-items: center;
-text-align: center;
+   align-items: center;
+   text-align: center;
 }
 
 article.independencia{
-text-align: center;
-
+   text-align: center;
 }
+
 article.himno{
-
-    text-align: justify;
-    align-items: center;
-    padding: 0px 200px 0px 200px;
-
+   text-align: justify;
+   align-items: center;
+   padding: 0px 200px 0px 200px;
 }
 footer{
     padding: 20px;
