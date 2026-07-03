@@ -12,11 +12,13 @@ body {
 }
 
 /* Contenedor: ancho máximo 1200px, box-sizing para incluir padding */
+
 .container {
   max-width: 1200px;
-  margin: 0;
+  margin: 0  auto;
   width: 100%;
   box-sizing: border-box;
+
 }
 
 /* Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados */
@@ -31,6 +33,33 @@ header .navbar {
   max-width: 100%;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+footer{
+    padding: 20px;
+    background: #021d13;
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Empty{
+    border: none;
+    padding: 20px;
+}
+
+img.FooterLogo {
+    height: 5rem;
+}
+
+h2.FooterTitle {
+    color: #70FF9B;
 }
 
 /* Título del header: texto verde claro, negrita, centrado verticalmente */
@@ -85,6 +114,10 @@ header .navbar {
   color: #f2f2f2;
 }
 
+.green-dark{
+    color: #021d13;
+}
+
 /* Clases utilitarias de fondo */
 .bg-green {
   background: #00c83c;
@@ -93,6 +126,8 @@ header .navbar {
 .bg-yellow {
   background: #faac00;
 }
+
+
 
 /* Título h1: tamaño 32px, negrita, con padding */
 h1 {
@@ -110,33 +145,43 @@ h2 {
 }
 
 /* Sección de ejemplo: flex columna, centrada, con padding lateral */
-.example-section {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 18px;
-  padding-right: 18px;
-  max-width: 100%;
-  box-sizing: border-box;
+.MeetAmargia {
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.HistoryAndAnthem {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Contenedor principal: flex columna, centrado, con separación entre elementos */
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  max-width: 100%;
-  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*max-width: 100%;*/
+    margin: 0;
 }
 
 /* Imágenes responsive: se adaptan al ancho del contenedor, bordes redondeados */
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 25px;
-  padding: 15px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    padding: 15px 0;
 }
 
 /* Botón collapsible: sin borde, bordes redondeados, texto en negrita */
@@ -200,7 +245,7 @@ img {
 }
 
 hr {
-  border: 3;
+  border: 3psx solid #003d43;
   height: 2px;
   background: #f2f2f2;
   margin: 20px 0;
