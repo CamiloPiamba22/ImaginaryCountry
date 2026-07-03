@@ -7,10 +7,10 @@ for (i = 0; i < coll.length; i++) {
     var content = this.previousElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
-      this.textContent = "Abrir";   // <--- когда закрыто
+      this.textContent = "Abrir";   
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-      this.textContent = "Cerrar";  // <--- когда открыто
+      this.textContent = "Cerrar";  
     }
   });
 }

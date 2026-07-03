@@ -1,156 +1,155 @@
 /* Body: flexbox centrado, fondo gris claro, fuente Albert Sans */
 body {
-display: flex;
-padding-top: 18px;
-flex-direction: column;
-align-items: center;
-border-radius: 25px;
-background: #F2F2F2;
-font-family: "Albert Sans";
-gap: 18px;
-margin: 0px;
+  display: flex;
+  padding-top: 18px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background: #f2f2f2;
+  font-family: "Albert Sans";
+  gap: 18px;
+  margin: 0px;
 }
 
 /* Contenedor: ancho máximo 1200px, box-sizing para incluir padding */
 .container {
-    max-width: 1200px;
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados */
 header .navbar {
-gap: 20px;
-display: flex;
-flex-direction: row;
-padding: 15px 33px;
-justify-content: space-between;
-border-radius: 100px;
-background: #003D43;
-max-width: 100%;
-margin-left: 18px;
-margin-right: 18px;
-
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 33px;
+  justify-content: space-between;
+  border-radius: 100px;
+  background: #003d43;
+  max-width: 100%;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 /* Título del header: texto verde claro, negrita, centrado verticalmente */
 .headerTitle {
-display: flex;
-align-items: center;
-color: #70FF9B;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin: 0px;
+  display: flex;
+  align-items: center;
+  color: #70ff9b;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
 }
 
 /* Botón hamburguesa: círculo verde con icono +, tamaño fijo */
 .burger {
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 100px;
-background: #70FF9B;
-width: 70px;
-height: 70px;
-min-width: 70px;
-min-height: 70px;
-text-decoration: none;
-font-size: 60px; 
-color: #003D43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: #70ff9b;
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  min-height: 70px;
+  text-decoration: none;
+  font-size: 60px;
+  color: #003d43;
 }
 
 /* Clases utilitarias de color de texto */
-.yellow{
-    color: #FAAC00;
+.yellow {
+  color: #faac00;
 }
 
-.green{
-    color: #00C83C;
+.green {
+  color: #00c83c;
 }
-.light-green{
-    color: #70FF9B;
-}
-
-.dark-green{
-    color: #003D43;
+.light-green {
+  color: #70ff9b;
 }
 
-.dark{
-    color: #00080C;
+.dark-green {
+  color: #003d43;
 }
 
-.light{
-    color: #F2F2F2;
+.dark {
+  color: #00080c;
+}
+
+.light {
+  color: #f2f2f2;
 }
 
 /* Clases utilitarias de fondo */
-.bg-green{
-    background: #00C83C;
+.bg-green {
+  background: #00c83c;
 }
 
-.bg-yellow{
-    background: #FAAC00;
+.bg-yellow {
+  background: #faac00;
 }
 
 /* Título h1: tamaño 32px, negrita, con padding */
 h1 {
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding: 25px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 25px;
 }
 
 /* Título h2: tamaño 24px, padding vertical */
 h2 {
-font-size: 24px;
-padding: 25px 0; 
+  font-size: 24px;
+  padding: 25px 0;
 }
 
 /* Sección de ejemplo: flex columna, centrada, con padding lateral */
 .example-section {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 18px;
-    padding-right: 18px;
-    max-width: 100%;
-    box-sizing: border-box
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Contenedor principal: flex columna, centrado, con separación entre elementos */
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    max-width: 100%;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0;
 }
 
 /* Imágenes responsive: se adaptan al ancho del contenedor, bordes redondeados */
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px;
-    padding: 15px 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  padding: 15px 0;
 }
 
 /* Botón collapsible: sin borde, bordes redondeados, texto en negrita */
 .collapsible {
-    padding: 18px 35px;
-    font-weight: 700;
-    border: none;
-    border-radius: 25px;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+  padding: 18px 35px;
+  font-weight: 700;
+  border: none;
+  border-radius: 25px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 /* Efecto hover: sombra y elevación suave al pasar el ratón */
@@ -161,8 +160,9 @@ img {
 }
 
 /* Estado activo o hover: fondo gris claro */
-.active, .collapsible:hover {
-  background-color: #F2F2F2;
+.active,
+.collapsible:hover {
+  background-color: #f2f2f2;
 }
 
 /* Contenido colapsable: oculto por defecto, transición suave al expandirse */
@@ -172,38 +172,36 @@ img {
   transition: max-height 0.2s ease-out;
 }
 
-
-
 /* Media query: estilos para pantallas de escritorio (≥1024px) */
 @media (min-width: 1024px) {
-    h1 {
-        font-size: 48px;
-        text-align: center;
-        max-width: 800px;
-    }
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    max-width: 800px;
+  }
 
-    h2 {
-        font-size: 36px;
-    }
+  h2 {
+    font-size: 36px;
+  }
 
-    .headerTitle {
-        font-size: 32px;
-    }
+  .headerTitle {
+    font-size: 32px;
+  }
 
-    .example-section {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
+  .example-section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
-    .collapsible {
-        font-size: 18px;
-        padding: 20px 45px;
-    }
+  .collapsible {
+    font-size: 18px;
+    padding: 20px 45px;
+  }
 }
 
 hr {
-    border: 3;
-    height: 2px;
-    background: #F2F2F2;
-    margin: 20px 0;
+  border: 3;
+  height: 2px;
+  background: #f2f2f2;
+  margin: 20px 0;
 }
