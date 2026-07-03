@@ -36,7 +36,7 @@ margin-right: 18px;
 
 footer{
     padding: 20px;
-    background: #003D43;
+    background: #021d13;
     color: #F2F2F2;
     max-width: 100%;
     display: flex;
@@ -46,6 +46,20 @@ footer{
     padding-right: 18px;
     max-width: 100%;
     box-sizing: border-box;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Empty{
+    border: none;
+    padding: 20px;
+}
+
+img.FooterLogo {
+    height: 5rem;
+}
+
+h2.FooterTitle {
+    color: #70FF9B;
 }
 
 /* Título del header: texto verde claro, negrita, centrado verticalmente */
@@ -98,6 +112,10 @@ color: #00080C
 
 .light{
     color: #F2F2F2;
+}
+
+.green-dark{
+    color: #021d13;
 }
 
 /* Clases utilitarias de fondo */
