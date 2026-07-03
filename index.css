@@ -35,6 +35,12 @@ margin-right: 18px;
 
 }
 
+.historiaehimno{
+display:flex;
+flex-direction: column;
+align-items: center;
+background-color: #00C83C;
+}
 
 
 footer{
