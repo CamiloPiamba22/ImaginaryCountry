@@ -21,19 +21,7 @@ body {
 
 }
 
-/* Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados */
-header .navbar {
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  padding: 15px 33px;
-  justify-content: space-between;
-  border-radius: 100px;
-  background: #003d43;
-  max-width: 100%;
-  margin-left: 18px;
-  margin-right: 18px;
-}
+
 
 footer{
     padding: 20px;
@@ -249,4 +237,62 @@ hr {
   height: 2px;
   background: #f2f2f2;
   margin: 20px 0;
+}
+
+/*NAVBAR Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados 
+header .navbar {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 33px;
+  justify-content: space-between;
+  border-radius: 100px;
+  background: #003d43;
+  max-width: 100%;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 33px;
+  justify-content: space-between;
+  border-radius: 100px;
+  background-color: #003d43;
+  max-width: 100%;
+  margin-left: 18px;
+  margin-right: 18px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
 }
