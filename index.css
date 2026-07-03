@@ -282,8 +282,11 @@ header .navbar {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #70ff9b;
   color: black;
+  border-radius: 100px;
+  font-size: 17px;
+  
 }
 
 /* Add an active class to highlight the current page */
