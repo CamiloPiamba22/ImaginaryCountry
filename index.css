@@ -12,12 +12,13 @@ margin: 0px;
 }
 
 /* Contenedor: ancho máximo 1200px, box-sizing para incluir padding */
+/*
 .container {
     max-width: 1200px;
     margin: 0;
     width: 100%;
     box-sizing: border-box;
-}
+}*/
 
 /* Navbar: flex horizontal, espacio entre elementos, fondo verde oscuro, bordes redondeados */
 header .navbar {
@@ -171,8 +172,7 @@ padding: 25px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    max-width: 100%;
+    /*max-width: 100%;*/
     margin: 0;
 }
 
