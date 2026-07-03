@@ -43,6 +43,47 @@ background-color: #00C83C;
 }
 
 
+article.history{
+
+    text-align: justify;
+    padding: 50px;
+
+}
+
+p.lema{
+text-align: justify;
+padding: 50px;
+    
+}
+article.lema{
+
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+img.coro{
+margin: 0px 0px 0px 150px;
+
+}
+
+article.fiesta{
+
+align-items: center;
+text-align: center;
+}
+
+article.independencia{
+text-align: center;
+
+}
+article.himno{
+
+    text-align: justify;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+
+}
 footer{
     padding: 20px;
     background: #021d13;
