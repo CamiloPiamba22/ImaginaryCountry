@@ -44,13 +44,14 @@ footer{
     align-items: center;
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 100%;
+    width: 80%;
     box-sizing: border-box;
     border-radius: 25px 25px 0px 0px;
 }
 
 .Empty{
     border: none;
+    background: none;
     padding: 20px;
 }
 
