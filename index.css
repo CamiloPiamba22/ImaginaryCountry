@@ -278,11 +278,12 @@ header .navbar {
   text-decoration: none;
   font-size: 25px;
 }
-.topnav a i {]
+
+.topnav a i{
 display: flex;
 align-items: center;
 justify-content: center;
-text-color: #003d43;
+color: #003d43;
 font-size: 35px;
   width: 50px;
   height: 50px;
@@ -293,17 +294,15 @@ border-radius: 100px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #70ff9b;
-  color: black;
-  border-radius: 100px;
-  font-size: 17px;
-
-  
+  border-radius: 100px;  
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: transparent;
+  white-space: nowrap; 
+  width: auto;
+  height: auto;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -322,15 +321,20 @@ border-radius: 100px;
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+ .topnav.responsive {
+  position: relative;
+}
+.topnav.responsive a.icon {  
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
+
